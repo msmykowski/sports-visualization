@@ -1,0 +1,9 @@
+{
+  "title": "Sports Overview",
+  "scripts": [
+    "application.js"
+  ],
+  "stylesheets": [
+    "application.css"
+  ]
+}

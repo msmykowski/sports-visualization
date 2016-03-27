@@ -1,0 +1,15 @@
+@import '_variables';
+
+.application-header {
+  width: 100%;
+  text-align: center;
+  background-color: $main-color;
+  height: 55px;
+}
+
+.header-input {
+  margin-top: 10px;
+  border: solid 1px black;
+  font-size: 27px;
+  border-radius: 3px;
+}
