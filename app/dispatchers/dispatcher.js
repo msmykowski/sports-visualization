@@ -10,6 +10,10 @@ const Dispatcher = {
     this.$store.refine('data').set(data);
   },
 
+  updateIndex({data}) {
+    this.$store.refine('dataIndex').set(data);
+  },
+
   reset() {
     const dispatchKeys = Object.keys(Dispatcher);
     Object.keys(SingletonDispatcher).forEach(key => {

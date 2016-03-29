@@ -16,14 +16,14 @@ class Application extends React.Component {
   }
 
   render() {
-    const {store: {data}} = this.props;
+    const {store: {data, dataIndex}} = this.props;
 
     return (
-      <div class = "application-container">
+      <div className = "application-container">
         <header className = "application-header">
           <input className = "header-input"/>
         </header>
-        <StatCards {...{data}} />
+        <StatCards {...{data, dataIndex}} />
       </div>
     );
   }
