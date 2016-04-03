@@ -13,7 +13,6 @@ class PlayerListItem extends React.Component{
     return (
     <li className="player-list-item">
       <div className="player-ranking">{ranking}</div>
-      <img className="player-image" src="http://lorempixel.com/40/40/sports/" />
       <span className="player-name">{name}</span>
       <span className="stat-value"><b>{stat}</b></span>
     </li>);
